@@ -11,7 +11,6 @@ I'm currently working at **Skywork AI** as a Research Engineer. My primary focus
 ### 🚀 GitHub Stats
 <p align="center">
   <img width="450" src="https://github-readme-stats.vercel.app/api?username=Orlando-CS&count_private=true&show_icons=false&line_height=21&theme=react" alt="Orlando's GitHub Stats" />
-  <img width="450" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Orlando-CS&layout=compact&theme=react" alt="Top Languages" />
 </p>
 
 ### 📫 How to Reach Me
