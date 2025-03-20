@@ -1,16 +1,35 @@
-## Hi there 👋
+# Hello! I am Orlando <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" height="30px" width="40px">
 
-<!--
-**Orlando-CS/Orlando-CS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🍀 About Me
+I'm currently working at **Skywork AI** as a Research Engineer. My primary focus is on advancing the field of artificial intelligence, particularly in the areas of **Large Language Models (LLMs)**, **Multimodal Language Models**, and **End-to-End Agent Systems**.
 
-Here are some ideas to get you started:
+### ⚡️ Key Interests
+- **Large Language Models (LLMs)**: Exploring the capabilities and applications of LLMs in various domains.
+- **Multimodal Language Models**: Working on models that can understand and generate content across multiple modalities (text, image, audio, etc.).
+- **Agent & Operator Systems**: Developing intelligent agents that can operate autonomously and efficiently in complex environments.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 GitHub Stats
+<p align="center">
+  <img width="450" src="https://github-readme-stats.vercel.app/api?username=Orlando-CS&show_icons=true&line_height=21&theme=react" alt="Orlando's GitHub Stats" />
+  <img width="450" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Orlando&layout=compact&theme=react" alt="Top Languages" />
+</p>
+
+### 📫 How to Reach Me
+- **Email**: [orlando19971021@gmail.com]
+
+### 🌱 Currently Learning
+- Advanced techniques in MLLM RL and end2end RL.
+- Multimodal model integration and deployment.
+
+### 🤝 Looking to Collaborate On
+- Projects related to LLMs, multimodal AI, and autonomous agents.
+- Open-source contributions in AI and machine learning.
+
+### ⚡ Fun Fact
+I love exploring the intersection of AI and creativity, and I believe that AI can be a powerful tool for enhancing human potential.
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MichaelFan01&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
