@@ -3,7 +3,9 @@
 ### 🍀 About Me
 I'm currently working at **Skywork AI** as a Research Engineer. My primary focus is on advancing the field of artificial intelligence, particularly in the areas of **Large Language Models (LLMs)**, **Multimodal Language Models**, and **End-to-End Agent Systems**.
 
-I entered the large model industry in 2023, gaining comprehensive experience across the entire pipeline of LLM/MLLM pre-training, Supervised Fine-Tuning (SFT), and Reinforcement Learning (RL). I have an in-depth understanding of the nuances at each stage and remain continually amazed by the rapid evolution of this industry. Prior to this, I was responsible for recommendation algorithms at a leading chinese social app.
+I entered the large model industry in 2023, gaining comprehensive experience across the entire pipeline of LLM/MLLM pre-training, Supervised Fine-Tuning (SFT), and Reinforcement Learning (RL). I have an in-depth understanding of the nuances at each stage and remain continually amazed by the rapid evolution of this industry. 
+
+Prior to this, I was responsible for recommendation algorithms at a leading chinese social app.
 
 
 ### ⚡️ Key Interests
