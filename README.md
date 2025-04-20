@@ -5,7 +5,7 @@ I'm currently working at **Skywork AI** as a Research Engineer. My primary focus
 
 I entered the large model industry in 2023, gaining comprehensive experience across the entire pipeline of LLM/MLLM pre-training, Supervised Fine-Tuning (SFT), and Reinforcement Learning (RL). I have an in-depth understanding of the nuances at each stage and remain continually amazed by the rapid evolution of this industry. 
 
-Prior to this, I was responsible for recommendation algorithms at a leading chinese social app.
+Prior to this, I was responsible for recommendation system at a leading social app.
 
 
 ### ⚡️ Key Interests
