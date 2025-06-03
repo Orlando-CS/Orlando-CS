@@ -19,7 +19,7 @@ Prior to this, I was responsible for recommendation system at a leading social a
 </p>
 
 ### 📫 How to Reach Me
-- **Email**: [orlando19971021@gmail.com]
+- **Email**: [peiyuwang.cs@gmail.com]
 
 ### 🌱 Currently Learning
 - Advanced techniques in MLLM RL and end2end RL.
