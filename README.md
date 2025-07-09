@@ -1,5 +1,3 @@
-# Hello! I am Orlando <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" height="30px" width="40px">
-
 ### 🍀 About Me
 I'm currently working at **Skywork AI** as a Research Engineer. My primary focus is on advancing the field of artificial intelligence, particularly in the areas of **Large Language Models (LLMs)**, **Multimodal Language Models**, and **End-to-End Agent Systems**.
 
