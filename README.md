@@ -1,5 +1,5 @@
 ### 🍀 About Me
-I'm a Research Engineer and my primary focus is on advancing the field of artificial intelligence, particularly in the areas of **Large Language Models (LLMs)**, **Multimodal Language Models**, and **End-to-End Agent Systems**.
+I'm a Research Engineer and tech lead at skywork ai and my primary focus is on advancing the field of artificial intelligence, particularly in the areas of **Large Language Models (LLMs)**, **Multimodal Language Models**, and **End-to-End Agent Systems**.
 
 I entered the large model industry in 2023, gaining comprehensive experience across the entire pipeline of LLM/MLLM pre-training, Supervised Fine-Tuning (SFT), and Reinforcement Learning (RL). I have an in-depth understanding of the nuances at each stage and remain continually amazed by the rapid evolution of this industry. 
 
