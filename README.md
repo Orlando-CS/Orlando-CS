@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/main/assets/profile.jpg](https://github.com/Orlando-CS/Orlando-CS/blob/main/profile.jpg)"
+    src="[https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/main/assets/profile.jpg](https://github.com/Orlando-CS/Orlando-CS/blob/main/profile.jpg)](https://github.com/Orlando-CS/Orlando-CS/blob/main/profile.jpg)"
     width="160"
     style="border-radius: 50%;"
   />
