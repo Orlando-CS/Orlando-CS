@@ -23,10 +23,10 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
 
-      - name: Commit and push snake
-        uses: EndBug/add-and-commit@v9
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          add: "dist/github-contribution-grid-snake.svg"
-          message: "Update contribution snake"
-          new_branch: output
-          push: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
+          force_orphan: true
