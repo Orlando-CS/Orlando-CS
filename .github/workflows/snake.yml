@@ -23,9 +23,10 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
 
-      - name: Push snake to output branch
+      - name: Commit and push snake
         uses: EndBug/add-and-commit@v9
         with:
-          branch: output
-          message: "Update contribution snake"
           add: "dist/github-contribution-grid-snake.svg"
+          message: "Update contribution snake"
+          new_branch: output
+          push: true
