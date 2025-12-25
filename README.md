@@ -1,7 +1,7 @@
 <p align="center">
   <img
-    src="[https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/main/assets/profile.jpg](https://github.com/Orlando-CS/Orlando-CS/blob/main/profile.jpg)](https://github.com/Orlando-CS/Orlando-CS/blob/main/profile.jpg)"
-    width="160"
+    src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/main/profile.jpg"
+    width="250"
     style="border-radius: 50%;"
   />
 </p>
@@ -32,8 +32,6 @@ I entered the large model industry in **2023** and have gained hands-on experien
 - **Reinforcement Learning (RL)** and alignment
 
 I have a deep understanding of the nuances at each stage and remain continually amazed by the rapid evolution of this field.
-
-Prior to this, I worked on **recommendation systems at a leading social media platform**, focusing on large-scale user modeling and ranking systems.
 
 ---
 
