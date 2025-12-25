@@ -72,7 +72,6 @@ I was deeply involved in **large-scale recommendation systems** at RED before th
   />
 </p>
 
----
 
 <p align="center">
   <img
