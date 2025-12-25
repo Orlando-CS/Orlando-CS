@@ -72,6 +72,10 @@ I was deeply involved in **large-scale recommendation systems** at RED before th
   />
 </p>
 
+<p align="center">
+<img width="450" align="left" src="https://github-readme-stats-defcon27.vercel.app/api?username=Orlando-CS&show_icons=true&line_height=21&theme=react" alt="王沛雨's Github Stats" />
+</p>
+
 
 <p align="center">
   <img
