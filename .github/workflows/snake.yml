@@ -23,3 +23,6 @@ jobs:
           branch: output
           message: "Update contribution snake"
           add: "dist/github-contribution-grid-snake.svg"
+
+permissions:
+  contents: write
