@@ -1,37 +1,119 @@
-### 🍀 About Me
-My name is peiyu wang (王沛雨) and I'm a Research Engineer and tech lead at skywork ai and my primary focus is on advancing the field of artificial intelligence, particularly in the areas of **Large Language Models (LLMs)**, **Multimodal Language Models**, and **End-to-End Agent Systems**.
-
-I entered the large model industry in 2023, gaining comprehensive experience across the entire pipeline of LLM/MLLM pre-training, Supervised Fine-Tuning (SFT), and Reinforcement Learning (RL). I have an in-depth understanding of the nuances at each stage and remain continually amazed by the rapid evolution of this industry. 
-
-Prior to this, I was responsible for recommendation system at a leading social media.
-
-
-### ⚡️ Key Interests
-- **Large Language Models (LLMs)**: Exploring the capabilities and applications of LLMs in various domains.
-- **Multimodal Language Models**: Working on models that can understand and generate content across multiple modalities (text, image, audio, etc.).
-- **Agent & Operator Systems**: Developing intelligent agents that can operate autonomously and efficiently in complex environments.
-
-### 🚀 GitHub Stats
 <p align="center">
-  <img width="450" src="https://github-readme-stats.vercel.app/api?username=Orlando-CS&show_icons=false&line_height=21&theme=react" alt="Orlando's GitHub Stats" />
+  <img
+    src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/main/assets/profile.jpg"
+    width="160"
+    style="border-radius: 50%;"
+  />
 </p>
 
-### 📫 How to Reach Me
-- **Email**: [peiyuwang.cs@gmail.com]
+<h2 align="center">Peiyu Wang (王沛雨)</h2>
 
-### 🌱 Currently Learning
-- Advanced techniques in MLLM RL and end2end RL.
-- Multimodal model integration and deployment.
+<p align="center">
+  Research Engineer & Tech Lead @ Skywork AI<br/>
+  LLMs · Multimodal Models · End-to-End Agent Systems
+</p>
 
-### 🤝 Looking to Collaborate On
-- Projects related to LLMs, multimodal AI, and autonomous agents.
-- Open-source contributions in AI and machine learning.
+---
 
-### ⚡ Fun Fact
-I love exploring the intersection of AI and creativity, and I believe that AI can be a powerful tool for enhancing human potential.
+## 🍀 About Me
+
+Hi, I’m **Peiyu Wang (王沛雨)**, a **Research Engineer and Tech Lead at Skywork AI**.
+
+My primary focus is advancing **Artificial Intelligence**, particularly in:
+
+- **Large Language Models (LLMs)**
+- **Multimodal Language Models (MLLMs)**
+- **End-to-End Agent & Operator Systems**
+
+I entered the large model industry in **2023** and have gained hands-on experience across the **entire LLM/MLLM pipeline**, including:
+
+- Large-scale **pre-training**
+- **Supervised Fine-Tuning (SFT)**
+- **Reinforcement Learning (RL)** and alignment
+
+I have a deep understanding of the nuances at each stage and remain continually amazed by the rapid evolution of this field.
+
+Prior to this, I worked on **recommendation systems at a leading social media platform**, focusing on large-scale user modeling and ranking systems.
+
+---
+
+## ⚡️ Research & Engineering Interests
+
+- **Large Language Models (LLMs)**  
+  Scaling, alignment, evaluation, and real-world deployment
+
+- **Multimodal Language Models**  
+  Vision–language reasoning, multimodal RL, and unified modeling
+
+- **Agent & Operator Systems**  
+  Tool-augmented reasoning, autonomous agents, and long-horizon planning
+
+---
+
+## 🧰 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,go,linux,docker,kubernetes&theme=dark" />
+</p>
+
+---
+
+## 🚀 GitHub Stats
+
+<p align="center">
+  <img
+    width="450"
+    src="https://github-readme-stats.vercel.app/api?username=Orlando-CS&show_icons=false&line_height=21&theme=react"
+    alt="GitHub Stats"
+  />
+</p>
+
+---
+
+## 🌍 Global Visitors
+
+<p align="center">
+  <img
+    src="https://github-visitor-map.vercel.app/api/visitor-map?username=Orlando-CS&theme=react&radius=10"
+    alt="Visitor Map"
+  />
+</p>
+
+---
+
+## 🐍 Contribution Activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/output/github-contribution-grid-snake.svg" />
+</p>
+
+---
+
+## 🌱 Currently Learning
+
+- Advanced **MLLM Reinforcement Learning**
+- End-to-end RL for multimodal agent systems
+- Large-scale multimodal model deployment
+
+---
+
+## 🤝 Looking to Collaborate On
+
+- LLM / MLLM research and engineering projects
+- Agent systems and autonomous reasoning
+- Open-source contributions in AI and machine learning
+
+---
+
+## 📫 How to Reach Me
+
+- **Email**: peiyuwang.cs@gmail.com
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Orlando-CS&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img
+    src="https://komarev.com/ghpvc/?username=Orlando-CS&label=Profile%20views&color=0e75b6&style=flat"
+    alt="Profile Views"
+  />
 </p>
