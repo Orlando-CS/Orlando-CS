@@ -1,88 +1,69 @@
+<table align="center">
+  <tr>
+    <td width="300" align="center">
+      <img
+        src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/main/profile.jpg"
+        width="300"
+        style="border-radius: 50%;"
+      />
+    </td>
+    <td align="left">
+      <h2>Peiyu Wang (王沛雨)</h2>
+      <p>
+        Research Engineer & Tech Lead @ Skywork AI<br/>
+        Large Language Models · Multimodal Models · Agent Systems<br/>
+        <a href="mailto:peiyuwang.cs@gmail.com">peiyuwang.cs@gmail.com</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## About Me
+
+I am a **Research Engineer and Tech Lead at Skywork AI**, working on **large-scale language models (LLMs)**, **multimodal foundation models (MLLMs)**, and **end-to-end agent systems**.
+
+Since entering the foundation model field in **2023**, I have been deeply involved in the **full lifecycle of modern LLM/MLLM development**, including **pre-training, supervised fine-tuning (SFT), reinforcement learning (RL), alignment, evaluation, and deployment**. My work focuses on bridging **cutting-edge research** with **scalable, production-ready systems**.
+
+I was deeply involved in **large-scale recommendation systems** at RED before the era of LLM.
+
+---
+
+## Research & Engineering Experience
+
+**[Skywork AI office superagents](https://skywork.ai/)**  
+
+
+**[Skywork R1V Series (Multimodal Foundation Models)](https://huggingface.co/Skywork/Skywork-R1V-38B)**  
+
+---
+
+## Research Interests
+
+- Large Language Models: scaling, alignment, and evaluation  
+- Multimodal foundation models and reasoning  
+- Agent systems and autonomous decision-making  
+- End-to-end reinforcement learning for foundation models  
+
+---
+
+## Selected Skills
+
+- **Modeling & Training**: PyTorch, Distributed Training, RLHF / Alignment  
+- **Systems**: Linux, Docker, Kubernetes, Large-scale ML pipelines  
+- **Languages**: Python, C++, Go  
+
+---
+
+## Contribution Activity
+
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/main/profile.jpg"
-    width="250"
-    style="border-radius: 50%;"
+    src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/output/github-contribution-grid-snake.svg"
+    alt="GitHub Contribution Snake"
   />
 </p>
-
-<h2 align="center">Peiyu Wang (王沛雨)</h2>
-
-<p align="center">
-  Research Engineer & Tech Lead @ Skywork AI<br/>
-  LLMs · Multimodal Models · End-to-End Agent Systems
-</p>
-
----
-
-## 🍀 About Me
-
-Hi, I’m **Peiyu Wang (王沛雨)**, a **Research Engineer and Tech Lead at Skywork AI**.
-
-My primary focus is advancing **Artificial Intelligence**, particularly in:
-
-- **Large Language Models (LLMs)**
-- **Multimodal Language Models (MLLMs)**
-- **End-to-End Agent & Operator Systems**
-
-I entered the large model industry in **2023** and have gained hands-on experience across the **entire LLM/MLLM pipeline**, including:
-
-- Large-scale **pre-training**
-- **Supervised Fine-Tuning (SFT)**
-- **Reinforcement Learning (RL)** and alignment
-
-I have a deep understanding of the nuances at each stage and remain continually amazed by the rapid evolution of this field.
-
----
-
-## ⚡️ Research & Engineering Interests
-
-- **Large Language Models (LLMs)**  
-  Scaling, alignment, evaluation, and real-world deployment
-
-- **Multimodal Language Models**  
-  Vision–language reasoning, multimodal RL, and unified modeling
-
-- **Agent & Operator Systems**  
-  Tool-augmented reasoning, autonomous agents, and long-horizon planning
-
----
-
-## 🧰 Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,go,linux,docker,kubernetes&theme=dark" />
-</p>
-
----
-
-## 🐍 Contribution Activity
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-## 🌱 Currently Learning
-
-- Advanced **MLLM Reinforcement Learning**
-- End-to-end RL for multimodal agent systems
-- Large-scale multimodal model deployment
-
----
-
-## 🤝 Looking to Collaborate On
-
-- LLM / MLLM research and engineering projects
-- Agent systems and autonomous reasoning
-- Open-source contributions in AI and machine learning
-
----
-
-## 📫 How to Reach Me
-
-- **Email**: peiyuwang.cs@gmail.com
 
 ---
 
