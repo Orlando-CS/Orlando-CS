@@ -34,8 +34,15 @@ I was deeply involved in **large-scale recommendation systems** at RED before th
 
 **[Skywork AI office superagents](https://skywork.ai/)**  
 
-
 **[Skywork R1V Series (Multimodal Foundation Models)](https://huggingface.co/Skywork/Skywork-R1V-38B)**  
+
+**[Skywork Unipic Series(Unified model for generation and understanding)](https://huggingface.co/collections/Skywork/skywork-unipic2)**
+
+**[VL reward model](https://arxiv.org/abs/2505.07263)**
+
+**[large-scale recommendation systems for Red (小红书)](https://www.xiaohongshu.com/explore)**
+
+
 
 ---
 
