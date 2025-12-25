@@ -56,29 +56,6 @@ I have a deep understanding of the nuances at each stage and remain continually 
 
 ---
 
-## 🚀 GitHub Stats
-
-<p align="center">
-  <img
-    width="450"
-    src="https://github-readme-stats.vercel.app/api?username=Orlando-CS&show_icons=false&line_height=21&theme=react"
-    alt="GitHub Stats"
-  />
-</p>
-
----
-
-## 🌍 Global Visitors
-
-<p align="center">
-  <img
-    src="https://github-visitor-map.vercel.app/api/visitor-map?username=Orlando-CS&theme=react&radius=10"
-    alt="Visitor Map"
-  />
-</p>
-
----
-
 ## 🐍 Contribution Activity
 
 <p align="center">
