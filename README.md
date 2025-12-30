@@ -22,9 +22,9 @@
 
 ## About Me
 
-I am a **Research Engineer and Tech Lead at Skywork AI**, working on **large-scale language models (LLMs)**, **multimodal foundation models (MLLMs)**, and **end-to-end agent systems**.
+I am a **Research Engineer and Tech Lead at Skywork AI**, working on **large-scale language models (LLMs)**, **multimodal foundation models (MLLMs)**, and **end-to-end Agent systems**.
 
-Since entering the foundation model field in **2023**, I have been deeply involved in the **full lifecycle of modern LLM/MLLM development**, including **pre-training, supervised fine-tuning (SFT), reinforcement learning (RL), alignment, evaluation, and deployment**. My work focuses on bridging **cutting-edge research** with **scalable, production-ready systems**.
+Since entering the foundation model field in **2023**, I have been deeply involved in the **full lifecycle of modern LLM/MLLM development**, including **pre-training, supervised fine-tuning (SFT), reinforcement learning (RL), alignment, evaluation, and deployment**. My work focuses on bridging **cutting-edge research** with **scalable, production-ready agent systems**.
 
 I was deeply involved in **large-scale recommendation systems** at RED before the era of LLM.
 
@@ -32,7 +32,7 @@ I was deeply involved in **large-scale recommendation systems** at RED before th
 
 ## Research & Engineering Experience
 
-**[Skywork AI office superagents](https://skywork.ai/)**  
+**[Skywork AI office Super Agents](https://skywork.ai/)**  
 
 **[Skywork R1V Series (Multimodal Foundation Models)](https://huggingface.co/Skywork/Skywork-R1V-38B)**  
 
