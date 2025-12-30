@@ -42,7 +42,28 @@ I was deeply involved in **large-scale recommendation systems** at RED before th
 
 **[large-scale recommendation systems for Red (小红书)](https://www.xiaohongshu.com/explore)**
 
+---
 
+---
+
+## News
+
+- **[ML Summit 2025 Talk](https://www.ml-summit.org/speaker/1159?uid=c1047)**
+- **Skywork Office AI Super Agent — Official Launch**  
+
+<div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
+
+  <div style="flex: 1;">
+  </div>
+
+  <div>
+    <img
+      src="https://github.com/user-attachments/assets/5558b421-f617-4053-b581-97c1fb3b95e7"
+      width="400"
+    />
+  </div>
+
+</div>
 
 ---
 
