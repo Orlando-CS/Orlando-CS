@@ -49,7 +49,7 @@ I was deeply involved in **large-scale recommendation systems** at RED before th
 ## News
 
 - **[ML Summit 2025 Talk](https://www.ml-summit.org/speaker/1159?uid=c1047)**
-- **Skywork Office AI Super Agent — Official Launch**  
+- **[Skywork Office AI Super Agent — Official Launch](https://www.youtube.com/watch?v=l10MApNJvWo)**  
 
 <div style="display: flex; align-items: center; gap: 16px; margin-top: 12px;">
 
