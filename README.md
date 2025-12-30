@@ -44,7 +44,6 @@ I was deeply involved in **large-scale recommendation systems** at RED before th
 
 ---
 
----
 
 ## News
 
