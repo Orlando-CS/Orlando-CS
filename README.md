@@ -119,3 +119,7 @@ Since 2023, I've been involved in the full pipeline of foundation model developm
 <img width="450" align="left" src="https://github-readme-stats-defcon27.vercel.app/api?username=Orlando-CS&show_icons=true&line_height=21&theme=react" alt="王沛雨's Github Stats" />
 <img src="https://komarev.com/ghpvc/?username=Orlando-CS&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
+
+<p align="center">
+  <sub>Built by <a href="https://github.com/SkyworkAI/skyclaw/tree/main">SkyClaw v1.0</a> — the agent that writes resumes so you don't have to.</sub>
+</p>
