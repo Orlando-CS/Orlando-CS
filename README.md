@@ -33,7 +33,7 @@
 ## About Me
 
 
-Since 2023, I've been involved in the full pipeline of foundation model development — pre-training, supervised fine-tuning, RL alignment, evaluation, and production deployment. My work spans several directions:
+I've been involved in the full pipeline of foundation model development — pre-training, supervised fine-tuning, RL alignment, evaluation, and production deployment. My work spans several directions:
 
 - **Video Generation**: Co-developed [SkyReels V4](https://skywork.ai/), a multimodal video model with 1080p/32FPS output and audio-video synchronization, trained with full-modal reinforcement learning.
 - **World Models**: Built [Matrix-Game 3.0](https://github.com/SkyworkAI/Matrix-Game), a memory-augmented interactive world model supporting 720p/40FPS real-time streaming with long-horizon consistency.
