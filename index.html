@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peiyu Wang (王沛雨)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue: #1a5276;
+      --blue-light: #2980b9;
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-400: #9ca3af;
+      --gray-600: #4b5563;
+      --gray-800: #1f2937;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+      background: #fff;
+      color: #333;
+      line-height: 1.55;
+      font-size: 15px;
+    }
+
+    a { color: var(--blue-light); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .page { max-width: 920px; margin: 0 auto; padding: 32px 28px 48px; }
+
+    /* ---- Header ---- */
+    .header {
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+      padding-bottom: 20px;
+      border-bottom: 2px solid var(--blue);
+      margin-bottom: 24px;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 4px;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 1px solid var(--gray-200);
+    }
+    .header-text { flex: 1; }
+    .header-text h1 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 2em;
+      font-weight: 700;
+      color: var(--gray-800);
+      margin-bottom: 4px;
+    }
+    .header-text .affiliation {
+      font-size: 1.05em;
+      color: var(--gray-600);
+      margin-bottom: 6px;
+    }
+    .header-text .affiliation strong { color: var(--gray-800); }
+    .header-text .contact {
+      font-size: 0.92em;
+      color: var(--gray-600);
+    }
+    .header-text .contact a { margin-right: 14px; }
+    .header-text .contact a::after { content: ' \00b7'; color: var(--gray-400); margin-left: 14px; }
+    .header-text .contact a:last-child::after { content: ''; }
+
+    /* ---- Badges row ---- */
+    .badges {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 12px 0 0;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 10px;
+      border: 1px solid var(--gray-200);
+      border-radius: 4px;
+      font-size: 0.82em;
+      color: var(--gray-600);
+      background: var(--gray-50);
+      transition: border-color 0.2s;
+    }
+    .badge:hover { border-color: var(--blue-light); text-decoration: none; }
+    .badge svg { width: 14px; height: 14px; }
+
+    /* ---- Sections ---- */
+    .section { margin-bottom: 22px; }
+    .section h2 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 1.2em;
+      font-weight: 700;
+      color: var(--blue);
+      border-bottom: 1px solid var(--gray-200);
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+    }
+
+    /* ---- About ---- */
+    .about p {
+      color: var(--gray-600);
+      margin-bottom: 8px;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 24px;
+    }
+    .about-grid li {
+      list-style: none;
+      position: relative;
+      padding-left: 16px;
+      font-size: 0.93em;
+      color: var(--gray-600);
+      margin-bottom: 3px;
+    }
+    .about-grid li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--blue-light);
+    }
+    .about-grid strong { color: var(--gray-800); font-weight: 600; }
+
+    /* ---- Projects table ---- */
+    .proj-table { width: 100%; border-collapse: collapse; }
+    .proj-table tr { border-bottom: 1px solid var(--gray-100); }
+    .proj-table tr:last-child { border-bottom: none; }
+    .proj-table td { padding: 7px 0; vertical-align: top; }
+    .proj-name {
+      width: 210px;
+      font-weight: 600;
+      color: var(--gray-800);
+    }
+    .proj-name a { color: var(--gray-800); }
+    .proj-name a:hover { color: var(--blue-light); }
+    .proj-tag {
+      display: inline-block;
+      font-size: 0.75em;
+      padding: 1px 7px;
+      border-radius: 3px;
+      background: var(--gray-100);
+      color: var(--gray-600);
+      margin-left: 6px;
+      font-weight: 500;
+      vertical-align: middle;
+    }
+    .proj-desc { font-size: 0.92em; color: var(--gray-600); }
+    .proj-desc .paper { color: var(--blue-light); font-size: 0.9em; margin-left: 4px; }
+
+    /* ---- News ---- */
+    .news-list { list-style: none; }
+    .news-list li {
+      padding: 4px 0;
+      font-size: 0.93em;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .news-list .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--blue-light);
+      flex-shrink: 0;
+      margin-top: 6px;
+    }
+
+    /* ---- Media ---- */
+    .media-group { margin-bottom: 10px; }
+    .media-group h3 {
+      font-size: 0.95em;
+      font-weight: 600;
+      color: var(--gray-800);
+      margin-bottom: 4px;
+    }
+    .media-list { list-style: none; padding-left: 14px; }
+    .media-list li {
+      font-size: 0.9em;
+      color: var(--gray-600);
+      margin-bottom: 2px;
+    }
+
+    /* ---- Interests ---- */
+    .interests {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 24px;
+    }
+    .interests li {
+      list-style: none;
+      position: relative;
+      padding-left: 14px;
+      font-size: 0.92em;
+      color: var(--gray-600);
+    }
+    .interests li::before {
+      content: '\25B8';
+      position: absolute;
+      left: 0;
+      color: var(--blue-light);
+    }
+
+    /* ---- Stats ---- */
+    .stats-section {
+      text-align: center;
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid var(--gray-200);
+    }
+    .stats-section h2 { margin-bottom: 14px; }
+    .stats-row { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; align-items: center; }
+
+    /* ---- Footer ---- */
+    .footer {
+      text-align: center;
+      font-size: 0.8em;
+      color: var(--gray-400);
+      margin-top: 28px;
+      padding-top: 14px;
+      border-top: 1px solid var(--gray-100);
+    }
+
+    /* ---- Responsive ---- */
+    @media (max-width: 680px) {
+      .header { flex-direction: column; align-items: center; text-align: center; }
+      .header-text .contact a::after { content: ' \00b7'; }
+      .header-text .contact a:last-child::after { content: ''; }
+      .about-grid, .interests { grid-template-columns: 1fr; }
+      .proj-table, .proj-name, .proj-desc { display: block; width: 100%; }
+      .proj-name { margin-bottom: 2px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <img class="avatar" src="profile.jpg" alt="Peiyu Wang" />
+    <div class="header-text">
+      <h1>Peiyu Wang (王沛雨)</h1>
+      <p class="affiliation">
+        <strong>Research Engineer &amp; Tech Lead</strong>, <a href="https://skywork.ai/">Skywork AI</a>
+      </p>
+      <p class="contact">
+        <a href="mailto:peiyuwang.cs@gmail.com">peiyuwang.cs@gmail.com</a>
+        <a href="https://github.com/Orlando-CS">GitHub</a>
+        <a href="https://huggingface.co/OrlandoHugBot">HuggingFace</a>
+        <a href="https://scholar.google.com/citations?user=Xy7aIcwAAAAJ">Google Scholar</a>
+      </p>
+      <div class="badges">
+        <a class="badge" href="https://github.com/Orlando-CS">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          Orlando-CS
+        </a>
+        <a class="badge" href="https://huggingface.co/OrlandoHugBot">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+          OrlandoHugBot
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="section about">
+    <h2>About</h2>
+    <p>
+      Since 2023, I've been involved in the full pipeline of foundation model development &mdash; pre-training, supervised fine-tuning, RL alignment, evaluation, and production deployment. My work spans:
+    </p>
+    <ul class="about-grid">
+      <li><strong>Video Generation:</strong> Co-developed <a href="https://skywork.ai/">SkyReels V4</a>, 1080p/32FPS with full-modal RL</li>
+      <li><strong>World Models:</strong> Built <a href="https://github.com/SkyworkAI/Matrix-Game">Matrix-Game 3.0</a>, 720p/40FPS real-time streaming</li>
+      <li><strong>Agent Systems:</strong> Developed <a href="https://github.com/SkyworkAI/skyclaw/tree/main">SkyClaw-v1.0</a> with million-token context</li>
+      <li><strong>Multimodal Reasoning:</strong> Contributed to <a href="https://huggingface.co/Skywork/Skywork-R1V-38B">R1V Series</a> &amp; <a href="https://huggingface.co/collections/Skywork/skywork-unipic2">UniPic Series</a></li>
+    </ul>
+  </div>
+
+  <!-- Selected Projects -->
+  <div class="section">
+    <h2>Selected Projects</h2>
+    <table class="proj-table">
+      <tr>
+        <td class="proj-name"><a href="https://skywork.ai/">SkyReels V4</a> <span class="proj-tag">Video</span></td>
+        <td class="proj-desc">Multimodal video generation with full-modal RL. #1 on <a href="https://artificialanalysis.ai/">Artificial Analysis</a> for text-to-video with audio.</td>
+      </tr>
+      <tr>
+        <td class="proj-name"><a href="https://github.com/SkyworkAI/Matrix-Game">Matrix-Game 3.0</a> <span class="proj-tag">World</span></td>
+        <td class="proj-desc">Memory-augmented interactive world model for real-time streaming. <a href="https://arxiv.org/abs/2604.08995" class="paper">[arXiv]</a></td>
+      </tr>
+      <tr>
+        <td class="proj-name"><a href="https://github.com/SkyworkAI/skyclaw/tree/main">SkyClaw-v1.0</a> <span class="proj-tag">Agent</span></td>
+        <td class="proj-desc">Agent model with million-token context for tool use and code generation.</td>
+      </tr>
+      <tr>
+        <td class="proj-name"><a href="https://huggingface.co/Skywork/Skywork-R1V-38B">R1V Series</a> <span class="proj-tag">VLM</span></td>
+        <td class="proj-desc">38B VLM with multimodal chain-of-thought reasoning. <a href="https://arxiv.org/abs/2504.05599" class="paper">[arXiv]</a></td>
+      </tr>
+      <tr>
+        <td class="proj-name"><a href="https://huggingface.co/collections/Skywork/skywork-unipic2">UniPic Series</a> <span class="proj-tag">Unified</span></td>
+        <td class="proj-desc">1.5B unified model for image understanding, generation, and editing. <a href="https://arxiv.org/abs/2508.03320" class="paper">[arXiv]</a></td>
+      </tr>
+      <tr>
+        <td class="proj-name"><a href="https://arxiv.org/abs/2505.07263">VL Reward Model</a> <span class="proj-tag">Reward</span></td>
+        <td class="proj-desc">Multimodal reward model for RL alignment of MLLMs. <a href="https://arxiv.org/abs/2505.07263" class="paper">[arXiv]</a></td>
+      </tr>
+      <tr>
+        <td class="proj-name"><a href="https://skywork.ai/">Super Agents</a> <span class="proj-tag">Agent</span></td>
+        <td class="proj-desc">End-to-end agent system for autonomous task execution.</td>
+      </tr>
+      <tr>
+        <td class="proj-name"><a href="https://www.xiaohongshu.com/explore">RED Recommendation</a> <span class="proj-tag">RecSys</span></td>
+        <td class="proj-desc">Large-scale ranking, retrieval, and multi-objective optimization at Xiaohongshu.</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- News -->
+  <div class="section">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li><span class="dot"></span> <a href="https://ml-summit.org/speaker/1159?uid=c1048">ML Summit 2026 Talk &mdash; Interactive World Models</a></li>
+      <li><span class="dot"></span> <a href="https://www.ml-summit.org/speaker/1159?uid=c1047">ML Summit 2025 Talk &mdash; Agent System Design</a></li>
+      <li><span class="dot"></span> <a href="https://www.youtube.com/watch?v=l10MApNJvWo">Skywork Office AI Super Agent &mdash; Official Launch</a></li>
+    </ul>
+  </div>
+
+  <!-- Media Coverage -->
+  <div class="section">
+    <h2>Media Coverage</h2>
+    <div class="media-group">
+      <h3>SkyReels V4</h3>
+      <ul class="media-list">
+        <li><a href="https://www.qbitai.com/2026/02/382803.html">量子位 &mdash; 杀进全球榜TOP2！国产视频模型黑马刚刚出现了</a></li>
+        <li><a href="https://www.qbitai.com/2026/03/389146.html">量子位 &mdash; 刚刚，全球视频模型新王诞生了！</a></li>
+        <li><a href="https://jigou.jiqizhixin.com/articles/2026-02-27-7">机器之心 &mdash; 又一国产全模态视频大模型杀入Artificial Analysis榜单Top 2</a></li>
+        <li><a href="https://zhuanlan.zhihu.com/p/2017937124356289459">新智元 &mdash; 刚刚，国产视频模型登顶全球第一</a></li>
+      </ul>
+    </div>
+    <div class="media-group">
+      <h3>Matrix-Game 3.0</h3>
+      <ul class="media-list">
+        <li><a href="https://arxiv.org/abs/2604.08995">Paper &mdash; Real-Time and Streaming Interactive World Model</a></li>
+        <li><a href="https://www.qbitai.com/2026/03/392835.html">量子位 &mdash; 国产玩家亮剑世界模型！天工AI不藏了</a></li>
+      </ul>
+    </div>
+    <div class="media-group">
+      <h3>SkyClaw-v1.0</h3>
+      <ul class="media-list">
+        <li><a href="https://www.qbitai.com/2026/05/424851.html">量子位 &mdash; 国产Agent模型闯入全球第一梯队</a></li>
+        <li><a href="https://www.163.com/dy/article/KTS3VJK40556I485.html">凤凰网 &mdash; 天工AI发布Agent模型SkyClaw-v1.0</a></li>
+        <li><a href="https://m.163.com/dy/article/KTS3BG810511AQHO.html">网易 &mdash; 后OpenClaw时代，国产Agent凭「高配低价」叫板Opus 4.6</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Research Interests -->
+  <div class="section">
+    <h2>Research Interests</h2>
+    <ul class="interests">
+      <li>Large-scale language models: pre-training, RL alignment, and evaluation</li>
+      <li>Multimodal foundation models: reasoning, generation, and unified architectures</li>
+      <li>World models: interactive simulation and robotic embodiment</li>
+      <li>Agent systems: autonomous decision-making and tool orchestration</li>
+    </ul>
+  </div>
+
+  <!-- Contribution -->
+  <div class="stats-section">
+    <h2>Contribution Activity</h2>
+    <img src="https://raw.githubusercontent.com/Orlando-CS/Orlando-CS/output/github-contribution-grid-snake.svg" alt="Contribution Snake" style="max-width:100%;" />
+    <div class="stats-row" style="margin-top:14px;">
+      <img width="400" src="https://github-readme-stats-defcon27.vercel.app/api?username=Orlando-CS&show_icons=true&line_height=20&theme=github&dark_theme=github" alt="GitHub Stats" />
+      <img src="https://komarev.com/ghpvc/?username=Orlando-CS&label=Profile%20views&color=2980b9&style=flat" alt="Views" />
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    Built by <a href="https://github.com/SkyworkAI/skyclaw/tree/main">SkyClaw v1.0</a>
+  </div>
+
+</div>
+
+</body>
+</html>
