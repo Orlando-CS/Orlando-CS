@@ -193,6 +193,55 @@
       margin-bottom: 2px;
     }
 
+    /* ---- Timeline ---- */
+    .timeline {
+      position: relative;
+      padding-left: 24px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: var(--gray-200);
+    }
+    .timeline-item {
+      position: relative;
+      padding-bottom: 12px;
+    }
+    .timeline-item:last-child { padding-bottom: 0; }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -23px;
+      top: 7px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid var(--blue-light);
+    }
+    .timeline-item:first-child::before {
+      background: var(--blue-light);
+    }
+    .timeline-year {
+      font-size: 0.85em;
+      font-weight: 600;
+      color: var(--blue);
+      margin-bottom: 1px;
+    }
+    .timeline-title {
+      font-size: 0.95em;
+      font-weight: 600;
+      color: var(--gray-800);
+    }
+    .timeline-org {
+      font-size: 0.88em;
+      color: var(--gray-600);
+    }
+
     /* ---- Interests ---- */
     .interests {
       display: grid;
@@ -279,7 +328,7 @@
   <div class="section about">
     <h2>About</h2>
     <p>
-      Since 2023, I've been involved in the full pipeline of foundation model development &mdash; pre-training, supervised fine-tuning, RL alignment, evaluation, and production deployment. My work spans:
+      I've been involved in the full pipeline of foundation model development &mdash; pre-training, supervised fine-tuning, RL alignment, evaluation, and production deployment. My work spans:
     </p>
     <ul class="about-grid">
       <li><strong>Video Generation:</strong> Co-developed <a href="https://skywork.ai/">SkyReels V4</a>, 1080p/32FPS with full-modal RL</li>
@@ -287,6 +336,33 @@
       <li><strong>Agent Systems:</strong> Developed <a href="https://github.com/SkyworkAI/skyclaw/tree/main">SkyClaw-v1.0</a> with million-token context</li>
       <li><strong>Multimodal Reasoning:</strong> Contributed to <a href="https://huggingface.co/Skywork/Skywork-R1V-38B">R1V Series</a> &amp; <a href="https://huggingface.co/collections/Skywork/skywork-unipic2">UniPic Series</a></li>
     </ul>
+  </div>
+
+  <!-- Timeline -->
+  <div class="section">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">2024 &ndash; Present</div>
+        <div class="timeline-title">Research Engineer &amp; Tech Lead</div>
+        <div class="timeline-org">Skywork AI</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2023 &ndash; 2024</div>
+        <div class="timeline-title">Research Engineer</div>
+        <div class="timeline-org">Zhipu AI (智谱AI)</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2021 &ndash; 2023</div>
+        <div class="timeline-title">Recommendation System Engineer</div>
+        <div class="timeline-org">Xiaohongshu (小红书)</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2020 &ndash; 2021</div>
+        <div class="timeline-title">MSc Data Science</div>
+        <div class="timeline-org">University College London (UCL)</div>
+      </div>
+    </div>
   </div>
 
   <!-- Selected Projects -->
